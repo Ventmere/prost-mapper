@@ -1,16 +1,11 @@
 [package]
-name = "protobuf-mapper-codegen"
+name = "protobuf-mapper-tests"
 version = "0.1.0"
-authors = ["Flux Xu <fluxxu@gmail.com>"]
 edition = "2021"
 license = "MIT"
 description = "Automatic conversion between Protocol Buffers generated types and your Rust types."
 
-[lib]
-proc-macro = true
-
 [dependencies]
-proc-macro2 = "1.0"
-syn = "1.0"
-quote = "1.0"
-darling = "0.10"
+protobuf-mapper = { path = "../protobuf-mapper" }
+prost-types = "0.11"
+serde_json = "1.0"

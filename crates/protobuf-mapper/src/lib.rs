@@ -3,10 +3,6 @@ pub mod result;
 
 use crate::result::Error;
 
-#[allow(unused_imports)]
-#[macro_use]
-extern crate protobuf_mapper_codegen;
-
 pub use self::convert::Json;
 pub use protobuf_mapper_codegen::*;
 

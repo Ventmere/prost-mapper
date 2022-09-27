@@ -67,8 +67,6 @@ struct NestedModel {
 
 #[test]
 fn derive_enum() {
-  use crate::ProtoEnum;
-
   #[derive(Debug, PartialEq)]
   enum EnumProto {
     A = 0,
@@ -167,8 +165,6 @@ fn derive_enum_field() {
 
 #[test]
 fn derive_enum_muti() {
-  use crate::{ProtoEnum, ProtoEnumMeta};
-
   #[derive(Debug, PartialEq)]
   enum EnumProto {
     A = 0,
