@@ -5,6 +5,7 @@ authors = ["Flux Xu <fluxxu@gmail.com>"]
 edition = "2021"
 license = "MIT"
 description = "Automatic conversion between Protocol Buffers generated types and your Rust types."
+repository = "https://github.com/Ventmere/protobuf-mapper"
 
 [lib]
 proc-macro = true
